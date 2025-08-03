@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Axilas Claras em Dias - Receita Caseira Segura</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #f1d5e4;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+      color: #b31f63;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .highlight {
+      background: #ffe3f0;
+      border-left: 5px solid #b31f63;
+      padding: 15px;
+      margin: 20px 0;
+      font-size: 1.1em;
+    }
+
+    .price-box {
+      background: #fff;
+      padding: 20px;
+      border: 2px solid #b31f63;
+      border-radius: 10px;
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .price-box h2 {
+      color: #b31f63;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #b31f63;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #94174e;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+
+    .urgencia {
+      color: red;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .bonus {
+      background: #dfffd7;
+      border-left: 5px solid #37a100;
+      padding: 15px;
+      margin: 20px 0;
+      font-size: 1em;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 30px 0;
+    }
+
+    .galeria img {
+      width: 100%;
+      max-width: 240px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .comentarios {
+      margin-top: 40px;
+    }
+
+    .comentario {
+      background: #fff;
+      border-left: 4px solid #ccc;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+    }
+
+    .comentario p {
+      margin: 5px 0;
+    }
+
+    #formComentario {
+      margin-top: 20px;
+    }
+
+    textarea, input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🔥 Axilas Claras em Poucos Dias!</h1>
+    <p>Receita 100% Natural e Segura para a Pele Negra</p>
+  </header>
+
+  <div class="container">
+
+    <div class="highlight">
+      😩 Cansada de esconder suas axilas por vergonha das manchas? Você não está sozinha.
+    </div>
+
+    <h2>Descubra a Receita Caseira que Está Transformando a Vida de Mulheres Moçambicanas!</h2>
+
+    <ul>
+      <li>✔ Ingredientes simples e baratos que você já tem em casa</li>
+      <li>✔ Resultados visíveis em até <strong>7 dias</strong></li>
+      <li>✔ Totalmente segura para peles escuras e sensíveis</li>
+      <li>✔ Sem químicos, sem dor, sem gastar fortunas em clínicas</li>
+    </ul>
+
+    <div class="galeria">
+      <img src="imagens/antes.jpg" alt="Foto antes do tratamento">
+      <img src="imagens/durante.jpg" alt="Foto durante o tratamento">
+      <img src="imagens/depois.jpg" alt="Foto depois do tratamento">
+    </div>
+
+    <div class="urgencia">⚠️ Promoção válida somente para hoje!</div>
+
+    <div class="price-box">
+      <h2>🔥 Preço Especial de Lançamento</h2>
+      <p><del>900 MZN</del></p>
+      <h2>💥 Apenas 99 MZN!</h2>
+      <p>Receba o eBook completo no seu E-mail em minutos! Escreva o E-mail corretamente</p>
+
+      <!-- Contador aqui -->
+      <div id="contadorOferta" class="urgencia" style="margin-bottom: 15px;">
+        ⏳ Oferta expira em <span id="tempoRestante">...</span>
+      </div>
+
+      <a class="btn" href="https://venduspay.com/checkout.html?id=2770">Comprar Agora com E-mola / M-Pesa</a>
+    </div>
+
+    <div class="bonus">
+      🎁 <strong>BÔNUS EXCLUSIVO:</strong> Dicas de como manter suas axilas claras por muito mais tempo!
+    </div>
+
+    <h3>Quem já comprou, recomenda:</h3>
+    <div class="comentarios">
+      <div class="comentario"><p><strong>Jéssica (Beira)</strong>: "Usei por 5 dias e já vi diferença. Minha pele é negra e super sensível, e não tive nenhuma reação. Amei!"</p></div>
+      <div class="comentario"><p><strong>Mariana</strong>: "Muito bom! Funciona mesmo!"</p></div>
+      <div class="comentario"><p><strong>Cláudia</strong>: "Minha confiança voltou. Obrigada!"</p></div>
+      <div class="comentario"><p><strong>Denise</strong>: "Muito nice so tive dificuldades em baixar o Ebook."</p></div>
+      <div class="comentario"><p><strong>Fatinha</strong>: "Funcionou melhor que cremes caros."</p></div>
+      <div class="comentario"><p><strong>Rute</strong>: "Minhas manchas sumiram em 12 dias."</p></div>
+      <div class="comentario"><p><strong>Helena</strong>: "Amei "</p></div>
+      <div class="comentario"><p><strong>Belinha</strong>: "Estou indicando para todas amigas."</p></div>
+      <div class="comentario"><p><strong>Leila</strong>: "Superou minhas expectativas."</p></div>
+      <div class="comentario"><p><strong>Anabela</strong>: "Alguem Ja experimentou? quero comprar tambem!"</p></div>
+    </div>
+
+    <form id="formComentario">
+      <h3>Deixe seu comentário:</h3>
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <textarea id="comentario" placeholder="Seu comentário..." required></textarea>
+      <button class="btn" type="submit">Enviar</button>
+    </form>
+
+  </div>
+
+  <div class="footer">
+    © 2025 - ClareAxilas | Todos os direitos reservados
+  </div>
+
+  <script>
+    const form = document.getElementById('formComentario');
+    const comentarios = document.querySelector('.comentarios');
+
+    // Carregar comentários salvos
+    window.onload = () => {
+      const salvos = JSON.parse(localStorage.getItem('comentariosExtra')) || [];
+      salvos.forEach(c => {
+        const div = document.createElement('div');
+        div.className = 'comentario';
+        div.innerHTML = `<p><strong>${c.nome}</strong>: ${c.texto}</p>`;
+        comentarios.appendChild(div);
+      });
+    };
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nome = document.getElementById('nome').value;
+      const texto = document.getElementById('comentario').value;
+
+      const novo = { nome, texto };
+      const salvos = JSON.parse(localStorage.getItem('comentariosExtra')) || [];
+      salvos.push(novo);
+      localStorage.setItem('comentariosExtra', JSON.stringify(salvos));
+
+      const div = document.createElement('div');
+      div.className = 'comentario';
+      div.innerHTML = `<p><strong>${nome}</strong>: ${texto}</p>`;
+      comentarios.appendChild(div);
+
+      form.reset();
+    });
+
+    // === Contador Regressivo com persistência ===
+    function iniciarContador() {
+      const tempoRestanteEl = document.getElementById('tempoRestante');
+      let fimOferta = localStorage.getItem('fimOferta');
+
+      if (!fimOferta) {
+        const agora = new Date();
+        agora.setMinutes(agora.getMinutes() + 40); // 40 minutos
+        fimOferta = agora.getTime();
+        localStorage.setItem('fimOferta', fimOferta);
+      }
+
+      const intervalo = setInterval(() => {
+        const agora = new Date().getTime();
+        const diferenca = fimOferta - agora;
+
+        if (diferenca <= 0) {
+          tempoRestanteEl.textContent = 'Expirada!';
+          clearInterval(intervalo);
+          return;
+        }
+
+        const minutos = Math.floor((diferenca % (1000 * 60 * 60)) / (1000 * 60));
+        const segundos = Math.floor((diferenca % (1000 * 60)) / 1000);
+
+        tempoRestanteEl.textContent = `${minutos}m ${segundos}s`;
+      }, 1000);
+    }
+
+    iniciarContador();
+  </script>
+
+</body>
+</html>
